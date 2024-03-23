@@ -1,7 +1,8 @@
 module.exports = {
   roles: {
     admin: 'ADMIN',
-    moderator: 'MODERATOR',
-    client: 'CLIENT',
+    technician: 'TECHNICIAN',
+    librarian: 'LIBRARIAN',
+    member: 'MEMBER',
   },
 };
