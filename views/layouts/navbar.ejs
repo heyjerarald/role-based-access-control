@@ -7,6 +7,12 @@
     <% if (user.role === 'ADMIN') { %>
     <li><a href="/admin/users">Manage Users</a></li>
     <% } %>
+    <% if (user.role === 'MEMBER') { %>
+    <li><a href="/user/media&technology">Media & Technology</a></li>
+    <% } %>
+    <% if (user.role === 'LIBRARIAN') { %>
+      <li><a href="/user/log">Log</a></li>
+      <% } %>
     <li><a href="/auth/logout">Logout</a></li>
     <% } else { %>
     <li><a href="/auth/register">Register</a></li>
